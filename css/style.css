@@ -54,7 +54,7 @@ section .btn{
 header{
     height: 80px;
     line-height: 80px;
-    background-color:rgba(49,97,244,255);
+    background-color:rgb(37 94 232);
 }
 #jumbotron{
     margin-bottom: 30px;
@@ -72,34 +72,38 @@ header{
 /* NavBar */
 nav .logo img{
     vertical-align: middle;
+    
 }
+
 nav .logo{
-    width: 15%px;
+    width: 15%;
 }
 
 nav ul li{
-    display: inline-block;
 }
 nav ul{
     list-style: none;
-    width: 70%;
+ 
 }
 nav li a{
+
     text-decoration: none;
     color: black;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0,  0.2);
 }
-nav li{
+nav li{    
+    display: inline-block;
     padding-right: 15px;
     list-style-type: none;
 }
+
 #accedi{
-    
-    text-align: right;
+    float:right;
+   text-align: right;
     width: 15%;
 }
 #accedi .btn{
-    padding: 10px 14px;
+    padding: 5px 20px;
     background-color: #fff;
     font-size: 14px;
     color: #23272a;
@@ -141,22 +145,40 @@ nav li a:active{
 }
 
 .left-column img{
-    width: 100%;
+    width: 80%;
 }
 
 .row{
-  
     padding:50px;
 }
 
 .left-column{
+    text-align: left;
     width: 60%;
 }
+
 
 .right-column{
     width: 40%;
 }
-
+.right-column h2,p{
+    padding-top: 25px;
+    padding-left: 60px;
+}
+section div{
+    
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+    padding-top: 15px;
+    
+}
+h2{
+    
+}
 h3{
     font-weight: 700;
     background-image: url(../img/stars.svg);
